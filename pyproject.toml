@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "accept-media-witness"
+version = "0.1.0"
+description = "Parse a bounded Accept media-range subset and assign each offered representation its most-specific matching quality, with range-index evidence and a deterministic server-order tie policy."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+accept-media-witness = "accept_media_witness:main"
+
+[tool.setuptools]
+py-modules = ["accept_media_witness"]

@@ -1,0 +1,8 @@
+{
+  "accept": "text/*;q=0.8, text/html;q=0, application/json;q=0.6",
+  "offers": [
+    "text/html",
+    "text/plain",
+    "application/json"
+  ]
+}
